@@ -28,5 +28,5 @@ spec:
         app: board
     spec:
       containers:
-      - image: 318156694807.dkr.ecr.ap-northeast-2.amazonaws.com/cha:board3
+      - image: 318156694807.dkr.ecr.ap-northeast-2.amazonaws.com/cha:board4
         name: board
