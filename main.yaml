@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-login
+  labels:
+    app: web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+       app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - image: 318156694807.dkr.ecr.ap-northeast-2.amazonaws.com/cha:main2
+        name: web-login
