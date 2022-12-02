@@ -15,5 +15,5 @@ spec:
         app: web
     spec:
       containers:
-      - image: 318156694807.dkr.ecr.ap-northeast-2.amazonaws.com/cha:main3
+      - image: 318156694807.dkr.ecr.ap-northeast-2.amazonaws.com/cha:main4
         name: web-login
